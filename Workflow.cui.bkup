@@ -1,0 +1,1634 @@
+<?xml version="1.0"?>
+<!--
+Warning! Do not edit the contents of this file.
+If you attempt to edit this file using an XML editor, you could lose
+customization and migration functionality. If you need to change
+information in the customization file, use the Customize User Interface
+dialog in the product.
+To access the Customize User Interface dialog, click the Tools menu,
+Customization panel, User Interface button, or enter CUI on the command line.
+-->
+<RibbonRoot>
+  <RibbonPanelSourceCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <RibbonPanelSource UID="RBN_01740265" Text="Selection" HiddenInEditor="false">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00021922">2D Drafting - Selection</Name>
+        <RibbonCommandButton UID="RBN_01740269" Id="AcRibbonCommandButton" Text="Select" ButtonStyle="SmallWithoutText" MenuMacroID="MM_0003" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021923">Select</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740270" Id="AcRibbonCommandButton" Text="Select Similar" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SelSimilar" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021924">Select Similar</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="RBN_01740268" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelBreak>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="RBN_01740266" Text="Selection" HiddenInEditor="false">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00022001">Annotation - Selection</Name>
+        <RibbonCommandButton UID="RBN_01740271" Id="AcRibbonCommandButton" Text="Select" ButtonStyle="SmallWithoutText" MenuMacroID="MM_0003" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00022002">Select</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740267" Id="AcRibbonCommandButton" Text="Select Similar" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SelSimilar" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00022003">Select Similar</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="RBN_01740272" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelBreak>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="RBN_01740273" Text="Selection" HiddenInEditor="false">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00022004">3D Modeling - Selection</Name>
+        <RibbonCommandButton UID="RBN_01740274" Id="AcRibbonCommandButton" Text="Select" ButtonStyle="SmallWithoutText" MenuMacroID="MM_0003" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00022005">Select</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740275" Id="AcRibbonCommandButton" Text="Select Similar" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SelSimilar" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00022006">Select Similar</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="RBN_01740276" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelBreak>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="ID_PanelDraw2D" Text="Open Shapes" HiddenInEditor="false" KeyTip="DW">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="ID_NAME_Draw">2D Drafting -  Create - Open Shapes</Name>
+      <Alias>ID_Draw</Alias>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_LINE" Id="AcRibbonCommandButton" Text="Line" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Line" KeyTip="LI">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonSplitButton UID="ID_RBN_SPLITBTN_ARC" Id="AcRibbonSplitButton" Text="Arc Drop-down" KeyTip="AR" SmallImage="RCDATA_16_ARC3PT" LargeImage="RCDATA_16_ARC3PT" Behavior="SplitFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARC3POINT" Id="AcRibbonCommandButton" Text="3-Point" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Arc3point">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="ID_RBN_RIBBONSEPARATOR" Id="AcRibbonSeparator" SeparatorStyle="Line">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonSeparator>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARCSTCEEN" Id="AcRibbonCommandButton" Text="Start, Center, End" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ArcStCeEn">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARCSTCEAN" Id="AcRibbonCommandButton" Text="Start, Center, Angle" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ArcStCeAn">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARCSTCELE" Id="AcRibbonCommandButton" Text="Start, Center, Length" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ArcStCeLe">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="ID_RBN_RIBBONSEPARATOR_0001" Id="AcRibbonSeparator" SeparatorStyle="Line">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonSeparator>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARCSTENAG" Id="AcRibbonCommandButton" Text="Start, End, Angle" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ArcStEnAg">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARCSTENDI" Id="AcRibbonCommandButton" Text="Start, End, Direction" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ArcStEnDi">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARCSTENRA" Id="AcRibbonCommandButton" Text="Start, End, Radius" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ArcStEnRa">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="ID_RBN_RIBBONSEPARATOR_0002" Id="AcRibbonSeparator" SeparatorStyle="Line">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonSeparator>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARCCESTEN" Id="AcRibbonCommandButton" Text="Center, Start, End" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ArcCeStEn">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARCCESTAN" Id="AcRibbonCommandButton" Text="Center, Start, Angle" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ArcCeStAn">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARCCESTLE" Id="AcRibbonCommandButton" Text="Center, Start, Length" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ArcCeStLe">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="ID_RBN_RIBBONSEPARATOR_0003" Id="AcRibbonSeparator" SeparatorStyle="Line">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonSeparator>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARCCONTIN" Id="AcRibbonCommandButton" Text="Continue" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ArcContin">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_PLINE" Id="AcRibbonCommandButton" Text="Polyline" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Pline" KeyTip="PL">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_SPLINE" Id="AcRibbonCommandButton" Text="Spline" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Spline" KeyTip="SP">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="ID_RBNPNL" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+      </RibbonPanelBreak>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_XLINE" Id="AcRibbonCommandButton" Text="Construction Line" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Xline" KeyTip="XL">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_RAY" Id="AcRibbonCommandButton" Text="Ray" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Ray" KeyTip="RA">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_3DPOLY" Id="AcRibbonCommandButton" Text="3D Polyline" ButtonStyle="SmallWithoutText" MenuMacroID="ID_3dpoly" KeyTip="3D">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_HELIX" Id="AcRibbonCommandButton" Text="Helix" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Helix" KeyTip="HE">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonSplitButton UID="ID_RBN_SPLITBTN_POINT" Id="AcRibbonSplitButton" Text="Point Drop-down" KeyTip="PT" SmallImage="RCDATA_16_POINT" LargeImage="RCDATA_16_POINT" Behavior="SplitFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_POINTMULT" Id="AcRibbonCommandButton" Text="Multiple Points" ButtonStyle="SmallWithoutText" MenuMacroID="ID_PointMult">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="ID_RBN_RIBBONSEPARATOR_0010" Id="AcRibbonSeparator" SeparatorStyle="Line">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonSeparator>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_DIVIDE" Id="AcRibbonCommandButton" Text="Divide" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Divide">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_MEASURE" Id="AcRibbonCommandButton" Text="Measure" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Measure">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="RBN_01738057" Id="AcRibbonCommandButton" Text="Point Style..." ButtonStyle="SmallWithoutText" MenuMacroID="ID_Ddptype" KeyTip="PS">
+          <TooltipTitle xlate="true" UID="XLS_00015786">Point Style...</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_SURFEXTRACTCURVE" Id="AcRibbonCommandButton" Text="Extract Isolines" ButtonStyle="SmallWithoutText" MenuMacroID="ID_EXTRACTISOLINES">
+            <ModifiedRev MajorVersion="19" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="ID_PanelDraw3D" Text="Open Shapes" HiddenInEditor="false" KeyTip="DW">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="ID_NAME_Draw3d">3D Modeling -  Create - Open Shapes</Name>
+      <Alias>ID_Draw3D</Alias>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_LINE3D" Id="AcRibbonCommandButton" Text="Line" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Line" KeyTip="LI">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonSplitButton UID="ID_RBN_SPLITBTN_ARC3D" Id="AcRibbonSplitButton" Text="Arc Drop-down" KeyTip="AR" SmallImage="RCDATA_16_ARC3PT" LargeImage="RCDATA_16_ARC3PT" Behavior="SplitFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARC3POINT3D" Id="AcRibbonCommandButton" Text="3-Point" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Arc3point">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="ID_RBN_RIBBONSEPARATOR3D" Id="AcRibbonSeparator" SeparatorStyle="Line">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonSeparator>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARCSTCEEN3D" Id="AcRibbonCommandButton" Text="Start, Center, End" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ArcStCeEn">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARCSTCEAN3D" Id="AcRibbonCommandButton" Text="Start, Center, Angle" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ArcStCeAn">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARCSTCELE3D" Id="AcRibbonCommandButton" Text="Start, Center, Length" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ArcStCeLe">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="ID_RBN_RIBBONSEPARATOR_00013D" Id="AcRibbonSeparator" SeparatorStyle="Line">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonSeparator>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARCSTENAG3D" Id="AcRibbonCommandButton" Text="Start, End, Angle" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ArcStEnAg">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARCSTENDI3D" Id="AcRibbonCommandButton" Text="Start, End, Direction" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ArcStEnDi">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARCSTENRA3D" Id="AcRibbonCommandButton" Text="Start, End, Radius" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ArcStEnRa">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="ID_RBN_RIBBONSEPARATOR_00023D" Id="AcRibbonSeparator" SeparatorStyle="Line">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonSeparator>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARCCESTEN3D" Id="AcRibbonCommandButton" Text="Center, Start, End" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ArcCeStEn">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARCCESTAN3D" Id="AcRibbonCommandButton" Text="Center, Start, Angle" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ArcCeStAn">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARCCESTLE3D" Id="AcRibbonCommandButton" Text="Center, Start, Length" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ArcCeStLe">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="ID_RBN_RIBBONSEPARATOR_00033D" Id="AcRibbonSeparator" SeparatorStyle="Line">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonSeparator>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ARCCONTIN3D" Id="AcRibbonCommandButton" Text="Continue" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ArcContin">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_PLINE3D" Id="AcRibbonCommandButton" Text="Polyline" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Pline" KeyTip="PL">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_SPLINE3D" Id="AcRibbonCommandButton" Text="Spline" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Spline" KeyTip="SP">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="ID_RBNPNL3D" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+      </RibbonPanelBreak>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_XLINE3D" Id="AcRibbonCommandButton" Text="Construction Line" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Xline" KeyTip="XL">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_RAY3D" Id="AcRibbonCommandButton" Text="Ray" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Ray" KeyTip="RA">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_3DPOLY3D" Id="AcRibbonCommandButton" Text="3D Polyline" ButtonStyle="SmallWithoutText" MenuMacroID="ID_3dpoly" KeyTip="3D">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_HELIX3D" Id="AcRibbonCommandButton" Text="Helix" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Helix" KeyTip="HE">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonSplitButton UID="ID_RBN_SPLITBTN_POINT3D" Id="AcRibbonSplitButton" Text="Point Drop-down" KeyTip="PT" SmallImage="RCDATA_16_POINT" LargeImage="RCDATA_16_POINT" Behavior="SplitFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_POINTMULT3D" Id="AcRibbonCommandButton" Text="Multiple Points" ButtonStyle="SmallWithoutText" MenuMacroID="ID_PointMult">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="ID_RBN_RIBBONSEPARATOR_00103D" Id="AcRibbonSeparator" SeparatorStyle="Line">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonSeparator>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_DIVIDE3D" Id="AcRibbonCommandButton" Text="Divide" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Divide">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_MEASURE3D" Id="AcRibbonCommandButton" Text="Measure" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Measure">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_POINTSTYLE3D" Id="AcRibbonCommandButton" Text="Point Style..." ButtonStyle="SmallWithoutText" MenuMacroID="ID_Ddptype" KeyTip="PS">
+          <TooltipTitle xlate="true" UID="XLS_00015786">Point Style...</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_SURFEXTRACTCURVE3D" Id="AcRibbonCommandButton" Text="Extract Isolines" ButtonStyle="SmallWithoutText" MenuMacroID="ID_EXTRACTISOLINES">
+            <ModifiedRev MajorVersion="19" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="RBN_01740038" Text="Closed Shapes" HiddenInEditor="false">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00021905">2D Drafting - Create - Closed Shapes</Name>
+        <RibbonSplitButton UID="RBN_01740043" Id="AcRibbonSplitButton" Text="Circle Drop-down" KeyTip="CI" SmallImage="RCDATA_16_CIRRAD" LargeImage="RCDATA_32_CIRRAD" Behavior="SplitFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="ID_RBN_0037" Id="AcRibbonCommandButton" Text="Center, Radius" ButtonStyle="SmallWithoutText" MenuMacroID="ID_CircleRad">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_0040" Id="AcRibbonCommandButton" Text="Center, Diameter" ButtonStyle="SmallWithoutText" MenuMacroID="ID_CircleDia">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="ID_RBN_0045" Id="AcRibbonSeparator" SeparatorStyle="Line" />
+          <RibbonCommandButton UID="ID_RBN_0114" Id="AcRibbonCommandButton" Text="2-Point" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Circle2pt">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_0149" Id="AcRibbonCommandButton" Text="3-Point" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Circle3pt">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="ID_RBN_0150" Id="AcRibbonSeparator" SeparatorStyle="Line" />
+          <RibbonCommandButton UID="ID_RBN_0151" Id="AcRibbonCommandButton" Text="Tan, Tan, Radius" ButtonStyle="SmallWithoutText" MenuMacroID="ID_CircleTTR">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_0152" Id="AcRibbonCommandButton" Text="Tan, Tan, Tan" ButtonStyle="SmallWithoutText" MenuMacroID="ID_CircleTTT">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="RBN_01740044" Id="AcRibbonCommandButton" Text="Rectangle" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Rectang" KeyTip="RE">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonSplitButton UID="RBN_01740046" Id="AcRibbonSplitButton" Text="Ellipse Drop-down" KeyTip="EL" SmallImage="RCDATA_16_ELLCEN" LargeImage="RCDATA_16_ELLCEN" Behavior="SplitFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="ID_RBN_0153" Id="AcRibbonCommandButton" Text="Center" ButtonStyle="SmallWithoutText" MenuMacroID="ID_EllipseCe">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_0154" Id="AcRibbonCommandButton" Text="Axis, End" ButtonStyle="SmallWithoutText" MenuMacroID="ID_EllipseAx">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="ID_RBN_0155" Id="AcRibbonSeparator" SeparatorStyle="Line" />
+          <RibbonCommandButton UID="ID_RBN_0156" Id="AcRibbonCommandButton" Text="Elliptical Arc" ButtonStyle="SmallWithoutText" MenuMacroID="ID_EllipseAr">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="RBN_01740074" Id="AcRibbonCommandButton" Text="Hatch" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Bhatch" KeyTip="HA">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="RBN_01740041" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelBreak>
+        <RibbonCommandButton UID="RBN_01740075" Id="AcRibbonCommandButton" Text="Gradient" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Gradient" KeyTip="GR">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740049" Id="AcRibbonCommandButton" Text="Polygon" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Polygon" KeyTip="PO">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740054" Id="AcRibbonCommandButton" Text="Boundary" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Boundary" KeyTip="BO">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740055" Id="AcRibbonCommandButton" Text="Region" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Region" KeyTip="RG">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740051" Id="AcRibbonCommandButton" Text="Revision Cloud" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Revcloud" KeyTip="RC">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740052" Id="AcRibbonCommandButton" Text="Wipeout" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Wipeout" KeyTip="WI">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740047" Id="AcRibbonCommandButton" Text="Donut" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Donut" KeyTip="DO">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="ID_PanelHome_Blocks" Text="Block" HiddenInEditor="false" KeyTip="BK">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00015649">2D Drafting - Create - Blocks</Name>
+      <Alias>ID_Home_Blocks</Alias>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_DDINSERT" Id="AcRibbonCommandButton" Text="Insert" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Ddinsert" KeyTip="BI">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_BMAKE" Id="AcRibbonCommandButton" Text="Create" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Bmake" KeyTip="BC">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_ATTDEF" Id="AcRibbonCommandButton" Text="Define Attributes" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Attdef" KeyTip="AD">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonSplitButton UID="ID_RBN_SPLITBTN_ATTRIBUTE" Id="AcRibbonSplitButton" Text="Edit Attributes" KeyTip="AE" SmallImage="RCDATA_16_ATTEDI" LargeImage="RCDATA_32_ATTEDI" Behavior="SplitFollowStaticText" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_EATTEDIT" Id="AcRibbonCommandButton" Text="Single" ButtonStyle="SmallWithoutText" MenuMacroID="ID_EAttEdit">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ATTEDITGLO" Id="AcRibbonCommandButton" Text="Multiple" ButtonStyle="SmallWithoutText" MenuMacroID="ID_AtteditGlo">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+      <RibbonPanelBreak UID="ID_RBNPNL_0007" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+      </RibbonPanelBreak>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_BATTMAN" Id="AcRibbonCommandButton" Text="Manage Attributes" ButtonStyle="SmallWithoutText" MenuMacroID="ID_BattMan" KeyTip="AM">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_ATTSYNC" Id="AcRibbonCommandButton" Text="Synchronize Attributes" ButtonStyle="SmallWithoutText" MenuMacroID="ID_AttSync" KeyTip="AS">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_BEDIT" Id="AcRibbonCommandButton" Text="Edit" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Bedit" KeyTip="BE">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_BASE" Id="AcRibbonCommandButton" Text="Set Base Point" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Base" KeyTip="BA">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740577" Id="AcRibbonCommandButton" Text="Write Block..." ButtonStyle="SmallWithoutText" MenuMacroID="MM_1934" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021942">Write Block...</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740530" Id="AcRibbonCommandButton" Text="Content Palette" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Content" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021940">Content Palette</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="RBN_017401682D" Text="Explode and Erase" HiddenInEditor="false" KeyTip="MD">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00021933">2D Drafting - Edit - Explode and Erase</Name>
+      <Alias>ID_Modify</Alias>
+        <RibbonCommandButton UID="RBN_01740183" Id="AcRibbonCommandButton" Text="Explode" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Explode" KeyTip="EX">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740184" Id="AcRibbonCommandButton" Text="Erase" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Erase" KeyTip="ER">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+		<RibbonPanelBreak UID="RBN_01740186" Id="AcRibbonPanelBreak">
+			<ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+		</RibbonPanelBreak>
+		<RibbonCommandButton UID="ID_RBN_CMDBTN_OVERKILL" Id="AcRibbonCommandButton" Text="Delete Duplicate Obejcts" ButtonStyle="SmallWithoutText" MenuMacroID="ID_OVERKILL" KeyTip="OK">
+			<ModifiedRev MajorVersion="18" MinorVersion="2" UserVersion="0" />
+		</RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="RBN_017401683D" Text="Explode and Erase" HiddenInEditor="false" KeyTip="MD">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_000219333D">3D Modeling - Edit - Explode and Erase</Name>
+      <Alias>ID_Modify3D</Alias>
+        <RibbonCommandButton UID="RBN_017401833D" Id="AcRibbonCommandButton" Text="Explode" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Explode" KeyTip="EX">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_017401843D" Id="AcRibbonCommandButton" Text="Erase" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Erase" KeyTip="ER">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+		<RibbonPanelBreak UID="RBN_017401863D" Id="AcRibbonPanelBreak">
+			<ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+		</RibbonPanelBreak>
+		<RibbonCommandButton UID="ID_RBN_CMDBTN_OVERKILL" Id="AcRibbonCommandButton" Text="Delete Duplicate Obejcts" ButtonStyle="SmallWithoutText" MenuMacroID="ID_OVERKILL" KeyTip="OK">
+			<ModifiedRev MajorVersion="18" MinorVersion="2" UserVersion="0" />
+		</RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="ID_PanelModify" Text="Move/Rotate/Scale" HiddenInEditor="false" KeyTip="MD">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="ID_NAME_Modify">2D Drafting - Edit - Move/Rotate/Scale</Name>
+      <Alias>ID_Modify</Alias>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_MOVE" Id="AcRibbonCommandButton" Text="Move" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Move" KeyTip="MO">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_ROTATE" Id="AcRibbonCommandButton" Text="Rotate" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Rotate" KeyTip="RO">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_SCALE" Id="AcRibbonCommandButton" Text="Scale" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Scale" KeyTip="SC">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740107" Id="AcRibbonCommandButton" Text="Stretch" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Stretch" KeyTip="ST">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="ID_RBNPNL_0002" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+      </RibbonPanelBreak>
+        <RibbonCommandButton UID="RBN_01740255" Id="AcRibbonCommandButton" Text="Align" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Align" KeyTip="AL">
+          <TooltipTitle xlate="true" UID="XLS_00021945">Align</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonSplitButton UID="RBN_01740146" Id="AcRibbonSplitButton" Text="Draw Order Drop-down" KeyTip="DR" SmallImage="" LargeImage="" Behavior="SplitFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="ID_RBN_0160" Id="AcRibbonCommandButton" Text="Bring to Front" ButtonStyle="SmallWithoutText" MenuMacroID="ID_DrawordeF">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_0161" Id="AcRibbonCommandButton" Text="Send to Back" ButtonStyle="SmallWithoutText" MenuMacroID="ID_DrawordeB">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_0162" Id="AcRibbonCommandButton" Text="Bring Above Objects" ButtonStyle="SmallWithoutText" MenuMacroID="ID_DrawordeA">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_0163" Id="AcRibbonCommandButton" Text="Send Under Objects" ButtonStyle="SmallWithoutText" MenuMacroID="ID_DrawordeU">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="ID_RBN_0164" Id="AcRibbonSeparator" SeparatorStyle="Line" />
+          <RibbonCommandButton UID="ID_RBN_0165" Id="AcRibbonCommandButton" Text="Bring Text to Front" ButtonStyle="SmallWithoutText" MenuMacroID="ID_TextOnly" KeyTip="">
+            <TooltipTitle xlate="true" UID="XLS_00021929">Bring Text to Front</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_0166" Id="AcRibbonCommandButton" Text="Bring Dimensions to Front" ButtonStyle="SmallWithoutText" MenuMacroID="ID_DimsOnly" KeyTip="">
+            <TooltipTitle xlate="true" UID="XLS_00021930">Bring Dimensions to Front</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_0167" Id="AcRibbonCommandButton" Text="Send Hatches to Back" ButtonStyle="SmallWithoutText" MenuMacroID="ID_HatchToBack" KeyTip="">
+            <TooltipTitle xlate="true" UID="XLS_00021931">Send Hatches to Back</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="RBN_01740090" Text="Copy" HiddenInEditor="false">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00021922">2D Drafting - Edit - Copy</Name>
+        <RibbonCommandButton UID="RBN_01740095" Id="AcRibbonCommandButton" Text="Copy" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Copy" KeyTip="CO">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonSplitButton UID="RBN_01740096" Id="AcRibbonSplitButton" Text="Array Drop-down" KeyTip="AY" SmallImage="RCDATA_16_ARRREC" LargeImage="RCDATA_32_ARRREC" Behavior="SplitFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0"></ModifiedRev>
+            <RibbonCommandButton UID="RBNU_2232" Id="AcRibbonCommandButton" Text="Rectangular Array" ButtonStyle="SmallWithoutText" MenuMacroID="ID_RectangularArray">
+                <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0"></ModifiedRev>
+            </RibbonCommandButton>
+            <RibbonCommandButton UID="RBNU_2233" Id="AcRibbonCommandButton" Text="Path Array" ButtonStyle="SmallWithoutText" MenuMacroID="ID_PathArray">
+                <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0"></ModifiedRev>
+            </RibbonCommandButton>
+            <RibbonCommandButton UID="RBNU_2234" Id="AcRibbonCommandButton" Text="Polar Array" ButtonStyle="SmallWithoutText" MenuMacroID="ID_PolarArray">
+                <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0"></ModifiedRev>
+            </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="RBN_01740098" Id="AcRibbonCommandButton" Text="Mirror" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Mirror" KeyTip="MI">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740099" Id="AcRibbonCommandButton" Text="Offset" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Offset" KeyTip="OF">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="RBN_01740093" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelBreak>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="RBN_017401002D" Text="Modify" HiddenInEditor="false" KeyTip="MD">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00021923">2D Drafting - Edit - Modify</Name>
+      <Alias>ID_Modify</Alias>
+        <RibbonCommandButton UID="RBN_01740523" Id="AcRibbonCommandButton" Text="Trim" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Trim">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740524" Id="AcRibbonCommandButton" Text="Extend" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Extend">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740526" Id="AcRibbonCommandButton" Text="Fillet" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Fillet">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740527" Id="AcRibbonCommandButton" Text="Chamfer" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Chamfer">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="RBN_01740118" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelBreak>
+        <RibbonCommandButton UID="RBN_01740110" Id="AcRibbonCommandButton" Text="Lengthen" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Lengthen" KeyTip="LE">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740237" Id="AcRibbonCommandButton" Text="Reverse" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Reverse" KeyTip="RV">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740516" Id="AcRibbonCommandButton" Text="Break" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Break" KeyTip="BR">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740517" Id="AcRibbonCommandButton" Text="Break at Point" ButtonStyle="SmallWithoutText" MenuMacroID="ID_BreakSele" KeyTip="BP">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740522" Id="AcRibbonCommandButton" Text="Join" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Join" KeyTip="JO">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton> 
+		<RibbonCommandButton UID="RBN_01740523" Id="AcRibbonCommandButton" Text="Blend" ButtonStyle="SmallWithoutText" MenuMacroID="ID_BLEND_CURVES">
+          <ModifiedRev MajorVersion="18" MinorVersion="2" UserVersion="0" />
+        </RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="RBN_017401003D" Text="Modify" HiddenInEditor="false" KeyTip="MD">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_000219233D">3D Modeling - Edit - Modify</Name>
+      <Alias>ID_Modify3D</Alias>
+        <RibbonCommandButton UID="RBN_017405233D" Id="AcRibbonCommandButton" Text="Trim" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Trim">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_017405243D" Id="AcRibbonCommandButton" Text="Extend" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Extend">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_017405263D" Id="AcRibbonCommandButton" Text="Fillet" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Fillet">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_017405273D" Id="AcRibbonCommandButton" Text="Chamfer" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Chamfer">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="RBN_017401183D" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelBreak>
+        <RibbonCommandButton UID="RBN_017401103D" Id="AcRibbonCommandButton" Text="Lengthen" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Lengthen" KeyTip="LE">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_017402373D" Id="AcRibbonCommandButton" Text="Reverse" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Reverse" KeyTip="RV">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_017405163D" Id="AcRibbonCommandButton" Text="Break" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Break" KeyTip="BR">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_017405173D" Id="AcRibbonCommandButton" Text="Break at Point" ButtonStyle="SmallWithoutText" MenuMacroID="ID_BreakSele" KeyTip="BP">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_017405223D" Id="AcRibbonCommandButton" Text="Join" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Join" KeyTip="JO">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+		<RibbonCommandButton UID="RBN_01740523" Id="AcRibbonCommandButton" Text="Blend" ButtonStyle="SmallWithoutText" MenuMacroID="ID_BLEND_CURVES">
+          <ModifiedRev MajorVersion="18" MinorVersion="2" UserVersion="0" />
+        </RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="ID_PanelParametricGeometricConstraints" Text="Parametric" HiddenInEditor="false">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="ID_NAME_ParametricGeometricConstraints">2D Drafting - Edit - Parametric</Name>
+        <RibbonCommandButton UID="RBNU_1663" Id="AcRibbonCommandButton" Text="Auto&#xD;Constrain" ButtonStyle="SmallWithoutText" MenuMacroID="MM_AutoConstrain" KeyTip="AC">
+          <TooltipTitle xlate="true" UID="XLS_00015796">AutoConstrain</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonSplitButton UID="RBN_01740595" Id="AcRibbonSplitButton" Text="Constraint Display Drop Down" Behavior="DropDownFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="RBN_01740598" Id="AcRibbonCommandButton" Text="Show All Geometric and Dimensional Constraints" ButtonStyle="SmallWithoutText" MenuMacroID="MM_1936" KeyTip="">
+            <TooltipTitle xlate="true" UID="XLS_00021945">Show All Geometric and Dimensional Constraints</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740597" Id="AcRibbonCommandButton" Text="Hide All Geometric and Dimensional Constraints" ButtonStyle="SmallWithoutText" MenuMacroID="MM_1935" KeyTip="">
+            <TooltipTitle xlate="true" UID="XLS_00021944">Hide All Geometric and Dimensional Constraints</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="RBN_01740600" Id="AcRibbonSeparator" SeparatorStyle="Line">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonSeparator>
+          <RibbonCommandButton UID="RBN_01740603" Id="AcRibbonCommandButton" Text="Show All Geometric Constraints" ButtonStyle="SmallWithoutText" MenuMacroID="MM_Show_All" KeyTip="">
+            <TooltipTitle xlate="true" UID="XLS_00021948">Show All Geometric Constraints</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740604" Id="AcRibbonCommandButton" Text="Hide All Geometric Constraints" ButtonStyle="SmallWithoutText" MenuMacroID="MM_Hide_All" KeyTip="">
+            <TooltipTitle xlate="true" UID="XLS_00021949">Hide All Geometric Constraints</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740605" Id="AcRibbonCommandButton" Text="Show Geometric Constraints" ButtonStyle="SmallWithoutText" MenuMacroID="MM_SelectObject" KeyTip="">
+            <TooltipTitle xlate="true" UID="XLS_00021950">Show Geometric Constraints</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="RBN_01740606" Id="AcRibbonSeparator" SeparatorStyle="Line">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonSeparator>
+          <RibbonCommandButton UID="RBN_01740609" Id="AcRibbonCommandButton" Text="Show All Dynamic Constraints" ButtonStyle="SmallWithoutText" MenuMacroID="MM_Show_All_Dyn_Constr" KeyTip="">
+            <TooltipTitle xlate="true" UID="XLS_00021953">Show All Dynamic Constraints</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740611" Id="AcRibbonCommandButton" Text="Hide All Dynamic Constraints" ButtonStyle="SmallWithoutText" MenuMacroID="MM_Hide_All_Dyn_Constr" KeyTip="">
+            <TooltipTitle xlate="true" UID="XLS_00021955">Hide All Dynamic Constraints</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740612" Id="AcRibbonCommandButton" Text="Show Dynamic Constraints" ButtonStyle="SmallWithoutText" MenuMacroID="MM_Show_Dyn_Constr" KeyTip="">
+            <TooltipTitle xlate="true" UID="XLS_00021956">Show Dynamic Constraints</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonSplitButton UID="RBN_01740578" Id="AcRibbonSplitButton" Text="Geometric Constraints Drop Down" Behavior="DropDownFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="RBN_01740580" Id="AcRibbonCommandButton" Text="Coincident" ButtonStyle="SmallWithoutText" MenuMacroID="MM_GeomConstraint_Coincident" KeyTip="CI">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740581" Id="AcRibbonCommandButton" Text="Collinear" ButtonStyle="SmallWithoutText" MenuMacroID="MM_GeomConstraint_Colinear" KeyTip="CL">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740582" Id="AcRibbonCommandButton" Text="Concentric" ButtonStyle="SmallWithoutText" MenuMacroID="MM_GeomConstraint_Concentric" KeyTip="CO">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740583" Id="AcRibbonCommandButton" Text="Fix" ButtonStyle="SmallWithoutText" MenuMacroID="MM_GeomConstraint_Fix" KeyTip="FI">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740585" Id="AcRibbonCommandButton" Text="Perpendicular" ButtonStyle="SmallWithoutText" MenuMacroID="MM_GeomConstraint_Perpendicular" KeyTip="PE">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740587" Id="AcRibbonCommandButton" Text="Horizontal" ButtonStyle="SmallWithoutText" MenuMacroID="MM_GeomConstraint_Horizontal" KeyTip="HO">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740588" Id="AcRibbonCommandButton" Text="Vertical" ButtonStyle="SmallWithoutText" MenuMacroID="MM_GeomConstraint_Vertical" KeyTip="VE">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740589" Id="AcRibbonCommandButton" Text="Parallel" ButtonStyle="SmallWithoutText" MenuMacroID="MM_GeomConstraint_Parallel" KeyTip="PA">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740590" Id="AcRibbonCommandButton" Text="Tangent" ButtonStyle="SmallWithoutText" MenuMacroID="MM_GeomConstraint_Tangent" KeyTip="TA">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740591" Id="AcRibbonCommandButton" Text="Smooth" ButtonStyle="SmallWithoutText" MenuMacroID="MM_Geomconstraint_smooth" KeyTip="SM">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740592" Id="AcRibbonCommandButton" Text="Symmetric" ButtonStyle="SmallWithoutText" MenuMacroID="MM_GeomConstraint_Symmetric" KeyTip="SY">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740593" Id="AcRibbonCommandButton" Text="Equal" ButtonStyle="SmallWithoutText" MenuMacroID="MM_GeomConstraint_Equal" KeyTip="EQ">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="RBN_01740594" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithoutText" MenuMacroID="MM_GeomConstraint_Parallel" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021943">Geometric Constraint, Parallel</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonSplitButton UID="RBNU_1855" Id="AcRibbonSplitButton" Text="Dimensional Constraints" KeyTip="DC" SmallImage="" LargeImage="" Behavior="SplitFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="RBNU_1977" Id="AcRibbonCommandButton" Text="Linear" ButtonStyle="SmallWithoutText" MenuMacroID="MMU_0031">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBNU_1978" Id="AcRibbonCommandButton" Text="Horizontal" ButtonStyle="SmallWithoutText" MenuMacroID="MM_DimConstraint_Horizontal">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBNU_1979" Id="AcRibbonCommandButton" Text="Vertical" ButtonStyle="SmallWithoutText" MenuMacroID="MM_DimConstraint_Vertical">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740616" Id="AcRibbonCommandButton" Text="Angular" ButtonStyle="SmallWithoutText" MenuMacroID="MM_DimConstraint_Angular" KeyTip="AN">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740617" Id="AcRibbonCommandButton" Text="Radius" ButtonStyle="SmallWithoutText" MenuMacroID="MM_DimConstraint_Radius" KeyTip="RA">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740618" Id="AcRibbonCommandButton" Text="Diameter" ButtonStyle="SmallWithoutText" MenuMacroID="MM_DimConstraint_Diameter" KeyTip="DI">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="RBN_01740615" Id="AcRibbonCommandButton" Text="Aligned" ButtonStyle="SmallWithoutText" MenuMacroID="MM_DimConstraint_Aligned" KeyTip="AL">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="ID_RBN_0069" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+      </RibbonPanelBreak>
+        <RibbonCommandButton UID="RBN_01740678" Id="AcRibbonCommandButton" Text="Delete&#xD; Constraints" ButtonStyle="SmallWithoutText" MenuMacroID="MM_Del_Constraint" KeyTip="DE">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonToggleButton UID="RBN_01740679" Id="AcParametersManagerCommandToggleButton" Text="Parameters &#xD;Manager" ButtonStyle="SmallWithoutText" KeyTip="PM">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonToggleButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="ID_PanelStandard_Clipboard" Text="Utilities" HiddenInEditor="false" KeyTip="HU">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="ID_NAME_Standard_Clipboard">2D Drafting - Utilities - Measure</Name>
+      <Alias>ID_Standard_Clipboard</Alias>
+        <RibbonSplitButton UID="ID_RBN_SPLITBTN_MEASURE" Id="AcRibbonSplitButton" Text="Measure" KeyTip="DT" SmallImage="" LargeImage="" Behavior="SplitFollowStaticText" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_DIST" Id="AcRibbonCommandButton" Text="Distance" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dist">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_RADIUS" Id="AcRibbonCommandButton" Text="Radius" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Radius">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_ANGLE" Id="AcRibbonCommandButton" Text="Angle" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Angle">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_VOLUME" Id="AcRibbonCommandButton" Text="Volume" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Volume">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="RBN_01740528" Id="AcRibbonCommandButton" Text="Area" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Area">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="ID_RBN_0021" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+      </RibbonPanelBreak>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="ID_PanelCoord" Text="Coordinates" HiddenInEditor="false" KeyTip="UC">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_COORD_0001">2D Drafting - Utilities - Coordinates</Name>
+      <Alias>ID_UCS3D</Alias>
+        <RibbonCommandButton UID="RBN_COORD_0009" Id="AcRibbonCommandButton" Text="World UCS" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsWorld" KeyTip="UW">
+          <TooltipTitle xlate="true" UID="XLS_0005">UCS, World</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_COORD_0013" Id="AcRibbonCommandButton" Text="Previous UCS" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsPrevio" KeyTip="UP">
+          <TooltipTitle xlate="true" UID="XLS_0006">UCS, Previous</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="RBN_COORD_0025" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelBreak>
+        <RibbonSplitButton UID="RBN_COORD_0011" Id="AcRibbonSplitButton" Text="Rotate UCS" KeyTip="UR" Behavior="DropDownFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="ID_RBN_COORD_000031" Id="AcRibbonCommandButton" Text="X" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsXAxRot" KeyTip="UX">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_COORD_00032" Id="AcRibbonCommandButton" Text="Y" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsYAxRot" KeyTip="UY">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_COORD_00033" Id="AcRibbonCommandButton" Text="Z" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsZAxRot" KeyTip="UZR">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonSplitButton UID="RBN_COORD_0019" Id="AcRibbonSplitButton" CommandID="ID_Ucs3point" CommandType="Macro" Text="Define UCS" Behavior="DropDownFollow" ListStyle="Icon" ButtonStyle="SmallWithoutText" Grouping="true">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="ID_RBN_COORD_0043" Id="AcRibbonCommandButton" Text="View" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsView" KeyTip="UV">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_COORD_0044" Id="AcRibbonCommandButton" Text="Object" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsObject" KeyTip="UO">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_COORD_0045" Id="AcRibbonCommandButton" Text="Face" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsFace" KeyTip="UF">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="RBN_COORD_0015" Id="AcRibbonCommandButton" Text="Set UCS Origin" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsOrigin" KeyTip="UO">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_COORD_0017" Id="AcRibbonCommandButton" Text="3 Point UCS" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Ucs3point" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_0007">3 Point</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_COORD_0016" Id="AcRibbonCommandButton" Text="Z-Axis Vector" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsZAxVec" KeyTip="UZV">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_COORD_0007" Id="AcRibbonCommandButton" Text="UCS" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Ucs" KeyTip="UU">
+          <TooltipTitle xlate="true" UID="XLS_0003">UCS</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_COORD_0005" Id="AcRibbonCommandButton" Text="UCS Icon Properties" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsiconPr" KeyTip="UP">
+          <TooltipTitle xlate="true" UID="XLS_0002">UCS Icon, Properties...</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_COORD_0008" Id="AcRibbonCommandButton" Text="Named UCS..." ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dducs" KeyTip="UN">
+          <TooltipTitle xlate="true" UID="XLS_0004">UCS, Named UCS...</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="ID_PanelText" Text="Text" HiddenInEditor="false" KeyTip="TE">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00015648">Annotate - Text</Name>
+      <Alias>ID_Text</Alias>
+        <RibbonSplitButton UID="RBN_00014261" Id="AcRibbonSplitButton" Text="Multiline&#xD;Text" KeyTip="MT" SmallImage="RCDATA_16_MTEXT" LargeImage="RCDATA_32_MTEXT" Behavior="SplitFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="RBN_00014262" Id="AcRibbonCommandButton" Text="Multiline Text" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Mtext">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_00014263" Id="AcRibbonCommandButton" Text="Single Line" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Text">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_SPELL" Id="AcRibbonCommandButton" Text="Check&#xD; Spelling" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Spell" KeyTip="CS">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740339" Id="AcRibbonCommandButton" Text="Find Text..." ButtonStyle="SmallWithoutText" MenuMacroID="ID_TextFind" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021922">Find...</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="ID_RBNPNL_0012" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+      </RibbonPanelBreak>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_WIPEOUT_0002" Id="AcRibbonCommandButton" Text="Wipeout" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Wipeout" KeyTip="WI">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="ID_PanelInsert_Data" Text="Fields" HiddenInEditor="false">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00015747">Annotate - Fields</Name>
+      <Alias>ID_Insert_Data</Alias>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_FIELD" Id="AcRibbonCommandButton" Text="Insert Field" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Field" KeyTip="FI">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_UPDFIELD" Id="AcRibbonCommandButton" Text="Update&#xD;Fields" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UpdField" KeyTip="UF">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="ID_RBN_0025" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+      </RibbonPanelBreak>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="ID_PanelDimensions" Text="Dimensions" HiddenInEditor="false" KeyTip="DM">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00015649">Annotate - Dimensions</Name>
+      <Alias>ID_Dimensions</Alias>
+        <RibbonSplitButton UID="ID_RBN_SPLITBTN_DIMENSION_0001" Id="AcRibbonSplitButton" CommandID="ID_Dimaligne" CommandType="Macro" Text="Dimension" KeyTip="DI" SmallImage="" LargeImage="" Behavior="SplitFollowStaticText" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="RBN_01740682" Id="AcRibbonCommandButton" Text="Linear Dimension" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dimlinear" KeyTip="">
+            <TooltipTitle xlate="true" UID="XLS_00021944">Dimension, Linear</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_DIMANGULA_0001" Id="AcRibbonCommandButton" Text="Angular" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dimangula">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="ID_RBN_RIBBONSEPARATOR_0063" Id="AcRibbonSeparator" SeparatorStyle="Line">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonSeparator>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_DIMARCLEN_0001" Id="AcRibbonCommandButton" Text="Arc Length" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dimarclen">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_DIMRADIUS_0001" Id="AcRibbonCommandButton" Text="Radius" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dimradius">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_DIMDIAMET_0001" Id="AcRibbonCommandButton" Text="Diameter" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dimdiamet">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="ID_RBN_RIBBONSEPARATOR_0064" Id="AcRibbonSeparator" SeparatorStyle="Line">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonSeparator>
+          <RibbonCommandButton UID="RBN_00014325" Id="AcRibbonCommandButton" Text="Jogged" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dimjogged">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_DIMORDINA_0001" Id="AcRibbonCommandButton" Text="Ordinate" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dimordina">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="RBN_01740683" Id="AcRibbonCommandButton" Text="Aligned" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dimaligne" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021945">Dimension, Aligned</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_DIMBREAK" Id="AcRibbonCommandButton" Text="Break Dimension" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dimbreak" KeyTip="BR">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_DIMSPACE" Id="AcRibbonCommandButton" Text="Adjust Dimension Space" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dimspace" KeyTip="SP">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_QDIM" Id="AcRibbonCommandButton" Text="Quick Dimension" ButtonStyle="SmallWithoutText" MenuMacroID="ID_QDim" KeyTip="QD">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonSplitButton UID="ID_RBN_SPLITBTN_DIMENSION_0002" Id="AcRibbonSplitButton" Text="Continue Drop-down" KeyTip="CO" SmallImage="" LargeImage="" Behavior="SplitFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_DIMCONTIN" Id="AcRibbonCommandButton" Text="Continue" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dimcontin">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_DIMBASELI" Id="AcRibbonCommandButton" Text="Baseline" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dimbaseli">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_DIMINSPECTION" Id="AcRibbonCommandButton" Text="Inspect Dimension" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Diminspection" KeyTip="DP">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_DIMSTYLEA" Id="AcRibbonCommandButton" Text="Update Dimension" ButtonStyle="SmallWithoutText" MenuMacroID="ID_DimstyleA" KeyTip="DU">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01738133" Id="AcRibbonCommandButton" Text="Jog Line" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dimjoglin" KeyTip="DJ">
+          <TooltipTitle xlate="true" UID="XLS_00015785">Dimension, Dimjogline</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_DIMREASSO" Id="AcRibbonCommandButton" Text="Reassociate Dimension" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dimreasso" KeyTip="DR">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_DIMCENTER" Id="AcRibbonCommandButton" Text="Center Mark" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dimcenter" KeyTip="DC">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="ID_RBNPNL_0013" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+      </RibbonPanelBreak>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_TOLERANCE" Id="AcRibbonCommandButton" Text="Tolerance" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Tolerance" KeyTip="TO">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_DIMOVERRI" Id="AcRibbonCommandButton" Text="Override" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dimoverri" KeyTip="DO">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_DIMEDITO" Id="AcRibbonCommandButton" Text="Oblique" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dimedito" KeyTip="DE">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_DIMTEDITA" Id="AcRibbonCommandButton" Text="Text Angle" ButtonStyle="SmallWithoutText" MenuMacroID="ID_DimteditA" KeyTip="DTA">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_DIMTEDITL" Id="AcRibbonCommandButton" Text="Left Justify" ButtonStyle="SmallWithoutText" MenuMacroID="ID_DimteditL" KeyTip="DTL">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_DIMTEDITC" Id="AcRibbonCommandButton" Text="Center Justify" ButtonStyle="SmallWithoutText" MenuMacroID="ID_DimteditC" KeyTip="DTC">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_DIMTEDITR" Id="AcRibbonCommandButton" Text="Right Justify" ButtonStyle="SmallWithoutText" MenuMacroID="ID_DimteditR" KeyTip="DTR">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="ID_PanelMultileaders" Text="Leaders" HiddenInEditor="false">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00015650">Annotate - Leaders</Name>
+      <Alias>ID_Multileaders</Alias>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_MLEADER_0001" Id="AcRibbonCommandButton" Text="Multileader" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Mleader" KeyTip="ML">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_MLEADER_ADD_0001" Id="AcRibbonCommandButton" Text="Add Leader" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Mleader_Add" KeyTip="MAD">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_MLEADER_ALIGN_0001" Id="AcRibbonCommandButton" Text="Align Leaders" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Mleader_Align" KeyTip="MAL">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_MLEADER_REMOVE_0001" Id="AcRibbonCommandButton" Text="Remove Leader" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Mleader_Remove" KeyTip="MV">
+          <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_MLEADER_COLLECT_0001" Id="AcRibbonCommandButton" Text="Collect Leaders" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Mleader_Collect" KeyTip="MC">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="ID_RBN_0027" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+      </RibbonPanelBreak>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="ID_PanelTables" Text="Tables" HiddenInEditor="false">
+      <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00015651">Annotate - Tables</Name>
+      <Alias>ID_Tables</Alias>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_TABLE_0001" Id="AcRibbonCommandButton" Text="Table" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Table" KeyTip="TA">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="ID_RBN_0028" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+      </RibbonPanelBreak>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="ID_PanelAnnotationScaling" Text="Annotation Scaling" HiddenInEditor="false">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00015653">Annotate - Annotation Scaling</Name>
+      <Alias>ID_AnnotationScaling</Alias>
+        <RibbonSplitButton UID="ID_RBN_SPLITBTN_SCALE" Id="AcRibbonSplitButton" Text="Add-Remove Scales Drop-down" KeyTip="AC" SmallImage="" LargeImage="" Behavior="SplitFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="ID_RBN_CMDBTNMM_1900" Id="AcRibbonCommandButton" Text="Add Current Scale" ButtonStyle="SmallWithoutText" MenuMacroID="MM_1900">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTNMM_1901" Id="AcRibbonCommandButton" Text="Delete Current Scale" ButtonStyle="SmallWithoutText" MenuMacroID="MM_1901">
+            <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_SCALELIST" Id="AcRibbonCommandButton" Text="Scale List" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ScaleList" KeyTip="SL">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTNMM_1735" Id="AcRibbonCommandButton" Text="Add/Delete Scales" ButtonStyle="SmallWithoutText" MenuMacroID="MM_1735" KeyTip="AS">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTNMM_1736" Id="AcRibbonCommandButton" Text="Sync Scale Positions" ButtonStyle="SmallWithoutText" MenuMacroID="MM_1736" KeyTip="SS">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="ID_RBN_0030" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+      </RibbonPanelBreak>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="ID_3dBasics_PanelCreate" Text="Solids - Create" HiddenInEditor="false" KeyTip="CR">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_SM_00015928">3D Modeling - Solids - Create</Name>
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        <RibbonSplitButton UID="RBN_SM_2342" Id="AcRibbonSplitButton" Text="Solid Primitives Drop-down" KeyTip="SR" SmallImage="" LargeImage="" Behavior="SplitFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="RBN_01740680" Id="AcRibbonCommandButton" Text="Box" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Box">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_CONE_0002" Id="AcRibbonCommandButton" Text="Cone" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Cone">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_SPHERE_0002" Id="AcRibbonCommandButton" Text="Sphere" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Sphere">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_PYRAMID_0002" Id="AcRibbonCommandButton" Text="Pyramid" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Pyramid">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_WEDGE_0002" Id="AcRibbonCommandButton" Text="Wedge" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Wedge">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_TORUS_0002" Id="AcRibbonCommandButton" Text="Torus" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Torus">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_CMDBTN_POLYSOLID_0002" Id="AcRibbonCommandButton" Text="Polysolid" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Polysolid" KeyTip="">
+            <TooltipTitle xlate="true" UID="XLS_SM_00015928">Polysolid</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="RBN_01740681" Id="AcRibbonCommandButton" Text="Cylinder" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Cylinder">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_EXTRUDE_0004" Id="AcRibbonCommandButton" Text="Extrude" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Extrude" KeyTip="EX">
+          <TooltipTitle xlate="true" UID="XLS_SM_00015932">Extrude</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_PRESSPULL_0002" Id="AcRibbonCommandButton" Text="Presspull" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Presspull" KeyTip="PU">
+          <TooltipTitle xlate="true" UID="XLS_SM_00015926">Presspull</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        <RibbonSplitButton UID="RBN_01740624" Id="AcRibbonSplitButton" Text="Solid Creation Drop-down" Behavior="DropDownFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="RBN_01740626" Id="AcRibbonCommandButton" Text="Revolve" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Revolve" KeyTip="RV">
+            <TooltipTitle xlate="true" UID="XLS_00021957">Revolve</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740627" Id="AcRibbonCommandButton" Text="Sweep" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Sweep" KeyTip="SW">
+            <TooltipTitle xlate="true" UID="XLS_00021958">Sweep</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="RBN_01740629" Id="AcRibbonCommandButton" Text="Loft" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Loft" KeyTip="LO">
+          <TooltipTitle xlate="true" UID="XLS_00021960">Loft</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="ID_RBNPNL_SM0052" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelBreak>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="ID_3dBasics_PanelEdit" Text="Solids - Edit" HiddenInEditor="false" KeyTip="ED">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_SM_00015935">3D Modeling - Solids - Edit</Name>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_FILLETDGE_0001" Id="AcRibbonCommandButton" Text="Fillet Edge" ButtonStyle="SmallWithoutText" MenuMacroID="ID_FILLET_EDGE" KeyTip="ED">
+          <TooltipTitle xlate="true" UID="XLS_SM_00015933">Fillet Edge</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTNM_CHAMFEREDGE_0001" Id="AcRibbonCommandButton" Text="Chamfer Edge" ButtonStyle="SmallWithoutText" MenuMacroID="ID_CHAMFER_EDGE" KeyTip="CE">
+          <TooltipTitle xlate="true" UID="XLS_SM_00015932">Chamfer Edge</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonSplitButton UID="RBN_01740630" Id="AcRibbonSplitButton" Text="Booleans Drop-down" Behavior="DropDownFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="RBN_01740632" Id="AcRibbonCommandButton" Text="Union" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Union" KeyTip="PN">
+            <TooltipTitle xlate="true" UID="XLS_00021961">Union</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740633" Id="AcRibbonCommandButton" Text="Subtract" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Subtract" KeyTip="SU">
+            <TooltipTitle xlate="true" UID="XLS_00021962">Subtract</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740634" Id="AcRibbonCommandButton" Text="Intersect" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Intersect" KeyTip="IN">
+            <TooltipTitle xlate="true" UID="XLS_00021963">Intersect</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+      <RibbonPanelBreak UID="ID_RBNPNL_SM_0053" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelBreak>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_EXTRACTEDGES_0005" Id="AcRibbonCommandButton" Text="Extract Edges" ButtonStyle="SmallWithoutText" MenuMacroID="ID_ExtractEdges" KeyTip="EE">
+          <TooltipTitle xlate="true" UID="XLS_SM_00015929">Extract Edges</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_SLICE_0003" Id="AcRibbonCommandButton" Text="Slice" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Slice" KeyTip="SL">
+          <TooltipTitle xlate="true" UID="XLS_SM_00015933">Slice</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_THICKEN_0003" Id="AcRibbonCommandButton" Text="Thicken" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Thicken" KeyTip="TH">
+          <TooltipTitle xlate="true" UID="XLS_SM_00015934">Thicken</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_FACETAPER_0002" Id="AcRibbonCommandButton" Text="Taper Faces" ButtonStyle="SmallWithoutText" MenuMacroID="ID_FaceTaper" KeyTip="TF">
+          <TooltipTitle xlate="true" UID="XLS_SM_00015935">Taper faces</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_FACEEXTRU_0003" Id="AcRibbonCommandButton" Text="Extrude Faces" ButtonStyle="SmallWithoutText" MenuMacroID="ID_FaceExtru" KeyTip="FE">
+          <TooltipTitle xlate="true" UID="XLS_SM_00015936">Extrude faces</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_FACEOFFSE_0002" Id="AcRibbonCommandButton" Text="Offset Faces" ButtonStyle="SmallWithoutText" MenuMacroID="ID_FaceOffse" KeyTip="FO">
+          <TooltipTitle xlate="true" UID="XLS_SM_00015937">Offset faces</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="RBN_01740360" Text="Surfaces - Create" HiddenInEditor="false" KeyTip="CR">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00021922">3D Modeling - Surfaces - Create</Name>
+        <RibbonCommandButton UID="RBN_01740372" Id="AcRibbonCommandButton" Text="Surface Network" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SURF_NETWORK" KeyTip="NE">
+          <TooltipTitle xlate="true" UID="XLS_00021928">Surface Network</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740373" Id="AcRibbonCommandButton" Text="Planar Surface" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Planesurf" KeyTip="PA">
+          <TooltipTitle xlate="true" UID="XLS_00021929">Planar</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740374" Id="AcRibbonCommandButton" Text="Surface Blend" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SURF_BLEND" KeyTip="SB">
+          <TooltipTitle xlate="true" UID="XLS_00021930">Surface Blend</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740375" Id="AcRibbonCommandButton" Text="Surface Patch" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SURF_PATCH" KeyTip="SP">
+          <TooltipTitle xlate="true" UID="XLS_00021931">Surface Patch</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="RBN_01740371" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelBreak>
+        <RibbonCommandButton UID="RBN_01740376" Id="AcRibbonCommandButton" Text="Surface Offset" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SURF_OFFSET" KeyTip="SO">
+          <TooltipTitle xlate="true" UID="XLS_00021932">Surface Offset</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740377" Id="AcRibbonCommandButton" Text="Surface Sculpt" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SURF_SCULPT" KeyTip="SS">
+          <TooltipTitle xlate="true" UID="XLS_00021933">Surface Sculpt</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740394" Id="AcRibbonCommandButton" Text="Extrude" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SURF_EXTRUDE" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021945">Extrude</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonSplitButton UID="RBN_01740693" Id="AcRibbonSplitButton" Text="Solid Creation Drop-down" Behavior="DropDownFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="RBN_01740695" Id="AcRibbonCommandButton" Text="Revolve" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SURF_REVOLVE" KeyTip="">
+            <TooltipTitle xlate="true" UID="XLS_00021944">Revolve</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740696" Id="AcRibbonCommandButton" Text="Sweep" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SURF_SWEEP" KeyTip="">
+            <TooltipTitle xlate="true" UID="XLS_00021945">Sweep</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="RBN_01740396" Id="AcRibbonCommandButton" Text="Loft" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SURF_LOFT" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021947">Loft</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="RBN_01740408" Text="Surfaces - Edit" HiddenInEditor="false" KeyTip="ED">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00021949">3D Modeling - Surfaces - Edit</Name>
+        <RibbonCommandButton UID="RBN_01740431" Id="AcRibbonCommandButton" Text="Surface Fillet" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SURF_FILLET" KeyTip="SF">
+          <TooltipTitle xlate="true" UID="XLS_00021963">Surface Fillet</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740432" Id="AcRibbonCommandButton" Text="Surface Trim" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SURF_TRIM" KeyTip="ST">
+          <TooltipTitle xlate="true" UID="XLS_00021964">Surface Trim</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="RBN_01740416" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelBreak>
+        <RibbonCommandButton UID="RBN_01740434" Id="AcRibbonCommandButton" Text="Surface Untrim" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SURF_UNTRIM" KeyTip="SU">
+          <TooltipTitle xlate="true" UID="XLS_00021965">Surface Untrim</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740435" Id="AcRibbonCommandButton" Text="Surface Extend" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SURF_EXTEND" KeyTip="SE">
+          <TooltipTitle xlate="true" UID="XLS_00021966">Surface Extend</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="RBN_01740653" Text="Closed Shapes" HiddenInEditor="false">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00021974">3D Modeling - 2D - Closed Shapes</Name>
+        <RibbonSplitButton UID="RBN_01740655" Id="AcRibbonSplitButton" Text="Circle Drop-down" KeyTip="CI" SmallImage="RCDATA_16_CIRRAD" LargeImage="RCDATA_32_CIRRAD" Behavior="SplitFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="ID_RBN_0020" Id="AcRibbonCommandButton" Text="Center, Radius" ButtonStyle="SmallWithoutText" MenuMacroID="ID_CircleRad">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_0022" Id="AcRibbonCommandButton" Text="Center, Diameter" ButtonStyle="SmallWithoutText" MenuMacroID="ID_CircleDia">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="ID_RBN_0023" Id="AcRibbonSeparator" SeparatorStyle="Line" />
+          <RibbonCommandButton UID="ID_RBN_0024" Id="AcRibbonCommandButton" Text="2-Point" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Circle2pt">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_0026" Id="AcRibbonCommandButton" Text="3-Point" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Circle3pt">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="ID_RBN_0031" Id="AcRibbonSeparator" SeparatorStyle="Line" />
+          <RibbonCommandButton UID="ID_RBN_0032" Id="AcRibbonCommandButton" Text="Tan, Tan, Radius" ButtonStyle="SmallWithoutText" MenuMacroID="ID_CircleTTR">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_0035" Id="AcRibbonCommandButton" Text="Tan, Tan, Tan" ButtonStyle="SmallWithoutText" MenuMacroID="ID_CircleTTT">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="RBN_01740656" Id="AcRibbonCommandButton" Text="Rectangle" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Rectang" KeyTip="RE">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="RBN_01740661" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelBreak>
+        <RibbonSplitButton UID="RBN_01740658" Id="AcRibbonSplitButton" Text="Ellipse Drop-down" KeyTip="EL" SmallImage="RCDATA_16_ELLAE" LargeImage="RCDATA_16_ELLAE" Behavior="SplitFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="ID_RBN_0036" Id="AcRibbonCommandButton" Text="Center" ButtonStyle="SmallWithoutText" MenuMacroID="ID_EllipseCe">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_0038" Id="AcRibbonCommandButton" Text="Axis, End" ButtonStyle="SmallWithoutText" MenuMacroID="ID_EllipseAx">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="ID_RBN_0039" Id="AcRibbonSeparator" SeparatorStyle="Line" />
+          <RibbonCommandButton UID="ID_RBN_0041" Id="AcRibbonCommandButton" Text="Elliptical Arc" ButtonStyle="SmallWithoutText" MenuMacroID="ID_EllipseAr">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="RBN_01740659" Id="AcRibbonCommandButton" Text="Hatch" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Bhatch" KeyTip="HA">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740662" Id="AcRibbonCommandButton" Text="Gradient" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Gradient" KeyTip="GR">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740663" Id="AcRibbonCommandButton" Text="Polygon" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Polygon" KeyTip="PO">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740665" Id="AcRibbonCommandButton" Text="Boundary" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Boundary" KeyTip="BO">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740666" Id="AcRibbonCommandButton" Text="Region" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Region" KeyTip="RG">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740668" Id="AcRibbonCommandButton" Text="Revision Cloud" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Revcloud" KeyTip="RC">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740669" Id="AcRibbonCommandButton" Text="Wipeout" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Wipeout" KeyTip="WI">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740671" Id="AcRibbonCommandButton" Text="Donut" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Donut" KeyTip="DO">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="RBN_01740449" Text="Move/Rotate/Scale" HiddenInEditor="false" KeyTip="MD">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00021922">3D Modeling - 2D - Move/Rotate/Scale</Name>
+      <Alias>ID_Modify</Alias>
+        <RibbonCommandButton UID="RBN_01740451" Id="AcRibbonCommandButton" Text="Move" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Move" KeyTip="MO">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740452" Id="AcRibbonCommandButton" Text="Rotate" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Rotate" KeyTip="RO">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740454" Id="AcRibbonCommandButton" Text="Scale" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Scale" KeyTip="SC">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740676" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Stretch" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021976">Stretch</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="RBN_01740457" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelBreak>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="RBN_01740437" Text="Copy" HiddenInEditor="false">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00021967">3D Modeling - 2D - Copy</Name>
+        <RibbonCommandButton UID="RBN_01740439" Id="AcRibbonCommandButton" Text="Copy" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Copy" KeyTip="CO">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740446" Id="AcRibbonCommandButton" Text="3D Array" ButtonStyle="SmallWithoutText" MenuMacroID="ID_3darray" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021968">3D Array</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740448" Id="AcRibbonCommandButton" Text="3D Mirror" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Mirror3d" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021969">3D Mirror</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740674" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithoutText" MenuMacroID="ID_3dalign" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021975">3D Align</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="RBN_01740445" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelBreak>
+        <RibbonSplitButton UID="RBN_01740440" Id="AcRibbonSplitButton" Text="Array Drop-down" KeyTip="AY" SmallImage="RCDATA_16_ARRREC" LargeImage="RCDATA_32_ARRREC" Behavior="SplitFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0"></ModifiedRev>
+            <RibbonCommandButton UID="RBNU_2235" Id="AcRibbonCommandButton" Text="Rectangular Array" ButtonStyle="SmallWithoutText" MenuMacroID="ID_RectangularArray">
+                <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0"></ModifiedRev>
+            </RibbonCommandButton>
+            <RibbonCommandButton UID="RBNU_2236" Id="AcRibbonCommandButton" Text="Path Array" ButtonStyle="SmallWithoutText" MenuMacroID="ID_PathArray">
+                <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0"></ModifiedRev>
+            </RibbonCommandButton>
+            <RibbonCommandButton UID="RBNU_2237" Id="AcRibbonCommandButton" Text="Polar Array" ButtonStyle="SmallWithoutText" MenuMacroID="ID_PolarArray">
+                <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0"></ModifiedRev>
+            </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="RBN_01740442" Id="AcRibbonCommandButton" Text="Mirror" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Mirror" KeyTip="MI">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740443" Id="AcRibbonCommandButton" Text="Offset" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Offset" KeyTip="OF">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740455" Id="AcRibbonCommandButton" Text="Align" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Align" KeyTip="AL">
+          <TooltipTitle xlate="true" UID="XLS_00021923">Align</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="ID_PanelLights" Text="Lights" HiddenInEditor="false" KeyTip="LI">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00015650">3D Modeling - Rendering - Lights</Name>
+      <Alias>ID_Lights</Alias>
+        <RibbonCommandButton UID="RBN_01740484" Id="AcRibbonCommandButton" Text="Point Light" ButtonStyle="SmallWithoutText" MenuMacroID="ID_PointLight" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021931">Light, New Point Light</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740485" Id="AcRibbonCommandButton" Text="Spotlight" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SpotLight" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021932">Light, New Spotlight</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="ID_RBNPNL_0016" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+      </RibbonPanelBreak>
+        <RibbonCommandButton UID="RBN_01740486" Id="AcRibbonCommandButton" Text="Distant Light" ButtonStyle="SmallWithoutText" MenuMacroID="ID_DistantLight" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021933">Light, New Distant Light</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740487" Id="AcRibbonCommandButton" Text="Weblight" ButtonStyle="SmallWithoutText" MenuMacroID="ID_WEBLIGHT" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021934">Weblight</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="ID_PanelMaterials" Text="Materials" HiddenInEditor="false" KeyTip="MT">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00015652">3D Modeling - Rendering - Materials</Name>
+      <Alias>ID_Materials</Alias>
+        <RibbonCommandButton UID="RBN_01740488" Id="AcRibbonCommandButton" Text="Materials Browser" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Materials" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021937">Materials Browser</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="ID_PanelRender" Text="Render" HiddenInEditor="false" KeyTip="RN">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00015654">3D Modeling - Rendering - Render</Name>
+      <Alias>ID_Render</Alias>
+        <RibbonCommandButton UID="RBN_01740502" Id="AcRibbonCommandButton" Text="Render" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Render" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021935">Render</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_FOG" Id="AcRibbonCommandButton" Text="Render Environment" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Fog" KeyTip="FO">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="ID_RBNPNL_0018" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0" />
+      </RibbonPanelBreak>
+        <RibbonCommandButton UID="ID_RBN_CMDBTN_RENDERWIN" Id="AcRibbonCommandButton" Text="Show Render Window..." ButtonStyle="SmallWithoutText" MenuMacroID="ID_RenderWin" KeyTip="RW">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="RBN_01740635" Text="Analysis" HiddenInEditor="false">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00021964">3D Modeling - Utilities - Analysis</Name>
+        <RibbonCommandButton UID="RBN_01740641" Id="AcRibbonCommandButton" Text="Interference Checking" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Interfere" KeyTip="IF">
+          <TooltipTitle xlate="true" UID="XLS_00021965">Interference Checking</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonSplitButton UID="RBN_01740642" Id="AcRibbonSplitButton" Text="Surface Analysis" Behavior="DropDownFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="RBN_01740648" Id="AcRibbonCommandButton" Text="Zebra Analysis" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SURF_ZEBRA" KeyTip="">
+            <TooltipTitle xlate="true" UID="XLS_00021970">Analysis Zebra</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740650" Id="AcRibbonCommandButton" Text="Draft Analysis" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SURF_DRAFT" KeyTip="">
+            <TooltipTitle xlate="true" UID="XLS_00021972">Analysis Draft</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740651" Id="AcRibbonCommandButton" Text="Curvature Analysis" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SURF_CURVATURE" KeyTip="">
+            <TooltipTitle xlate="true" UID="XLS_00021973">Analysis Curvature</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonSeparator UID="RBN_01740652" Id="AcRibbonSeparator" SeparatorStyle="Line">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonSeparator>
+          <RibbonCommandButton UID="RBN_01740649" Id="AcRibbonCommandButton" Text="Analysis Options" ButtonStyle="SmallWithoutText" MenuMacroID="ID_SURF_ANALYSIS_OPTIONS" KeyTip="">
+            <TooltipTitle xlate="true" UID="XLS_00021971">Analysis Options</TooltipTitle>
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+      <RibbonPanelBreak UID="RBN_01740638" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelBreak>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="RBNU_2219" Text="Section" HiddenInEditor="false" KeyTip="SN">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00015828">3D Modeling - Utilities - Section</Name>
+        <RibbonCommandButton UID="RBNU_2221" Id="AcRibbonCommandButton" Text="Section &#xD;Plane" ButtonStyle="SmallWithoutText" MenuMacroID="MM_1719" KeyTip="XP">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBNU_2231" Id="AcRibbonCommandButton" Text="Flatshot" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Flatshot" KeyTip="FT">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="RBNU_2230" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelBreak>
+        <RibbonCommandButton UID="RBN_01740508" Id="AcRibbonCommandButton" Text="Section Plane Settings..." ButtonStyle="SmallWithoutText" MenuMacroID="ID_SECTIONPLANESETTINGS" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021939">Modeling, Section Plane Settings ...</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="RBN_01740684" Text="Utilities" HiddenInEditor="false" KeyTip="HU">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00021944">3D Modeling - Utilities - Measure</Name>
+      <Alias>ID_Standard_Clipboard</Alias>
+        <RibbonSplitButton UID="RBN_01740686" Id="AcRibbonSplitButton" CommandID="ID_Area" CommandType="Macro" Text="Measure" KeyTip="DT" SmallImage="" LargeImage="" Behavior="SplitFollowStaticText" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="ID_RBN" Id="AcRibbonCommandButton" Text="Distance" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dist">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_0001" Id="AcRibbonCommandButton" Text="Radius" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Radius">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_0002" Id="AcRibbonCommandButton" Text="Angle" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Angle">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="RBN_01740690" Id="AcRibbonCommandButton" Text="Area" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Area">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonCommandButton UID="RBN_01740691" Id="AcRibbonCommandButton" Text="Volume" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Volume">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+      <RibbonPanelBreak UID="RBN_01740689" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelBreak>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="RBN_01740464" Text="Coordinates" HiddenInEditor="false" KeyTip="UC">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_00021922">3D Modeling - Utilities - Coordinates</Name>
+      <Alias>ID_UCS3D</Alias>
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        <RibbonCommandButton UID="RBN_01740483" Id="AcRibbonCommandButton" Text="World UCS" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsWorld" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021930">UCS, World</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740470" Id="AcRibbonCommandButton" Text="Previous UCS" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsPrevio" KeyTip="UP">
+          <TooltipTitle xlate="true" UID="XLS_00021925">UCS, Previous</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonSplitButton UID="RBN_01740469" Id="AcRibbonSplitButton" CommandID="ID_UcsWorld" CommandType="Macro" Text="Rotate UCS" KeyTip="UR" Behavior="DropDownFollow" ListStyle="IconText" ButtonStyle="SmallWithoutText" Grouping="false">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="ID_RBN_0014" Id="AcRibbonCommandButton" Text="X" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsXAxRot" KeyTip="UX">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_0015" Id="AcRibbonCommandButton" Text="Y" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsYAxRot" KeyTip="UY">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_0016" Id="AcRibbonCommandButton" Text="Z" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsZAxRot" KeyTip="UZR">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+        <RibbonSplitButton UID="RBN_01740476" Id="AcRibbonSplitButton" CommandID="ID_Ucs3point" CommandType="Macro" Text="Define UCS" Behavior="DropDownFollow" ListStyle="Icon" ButtonStyle="SmallWithoutText" Grouping="true">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          <RibbonCommandButton UID="ID_RBN_0017" Id="AcRibbonCommandButton" Text="View" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsView" KeyTip="UV">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_0018" Id="AcRibbonCommandButton" Text="Object" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsObject" KeyTip="UO">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+          <RibbonCommandButton UID="ID_RBN_0019" Id="AcRibbonCommandButton" Text="Face" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsFace" KeyTip="UF">
+            <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+          </RibbonCommandButton>
+        </RibbonSplitButton>
+      <RibbonPanelBreak UID="RBN_01740475" Id="AcRibbonPanelBreak">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelBreak>
+        <RibbonCommandButton UID="RBN_01740466" Id="AcRibbonCommandButton" Text="UCS" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Ucs" KeyTip="UU">
+          <TooltipTitle xlate="true" UID="XLS_00021923">UCS</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740473" Id="AcRibbonCommandButton" Text="3 Point UCS" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Ucs3point" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021926">3 Point</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740472" Id="AcRibbonCommandButton" Text="Define UCS Origin" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsOrigin" KeyTip="UO">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740477" Id="AcRibbonCommandButton" Text="Define UCS Z-Axis Vector" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsZAxVec" KeyTip="UZV">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740479" Id="AcRibbonCommandButton" Text="UCS Icon Properties" ButtonStyle="SmallWithoutText" MenuMacroID="ID_UcsiconPr" KeyTip="UP">
+          <TooltipTitle xlate="true" UID="XLS_00021927">UCS Icon, Properties...</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740480" Id="AcRibbonCommandButton" Text="Manage UCS..." ButtonStyle="SmallWithoutText" MenuMacroID="ID_Dducs" KeyTip="UN">
+          <TooltipTitle xlate="true" UID="XLS_00021928">UCS, Named UCS...</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+    </RibbonPanelSource>
+    <RibbonPanelSource UID="RBN_01740564"  Text="Undo/Redo" HiddenInEditor="false" KeyTip="">
+         <RibbonCommandButton UID="RBN_01740481" Id="AcRibbonCommandButton" Text="Undo" ButtonStyle="SmallWithoutText" MenuMacroID="ID_U" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021929">Undo</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonCommandButton UID="RBN_01740482" Id="AcRibbonCommandButton" Text="Redo" ButtonStyle="SmallWithoutText" MenuMacroID="ID_Redo" KeyTip="">
+          <TooltipTitle xlate="true" UID="XLS_00021930">Redo</TooltipTitle>
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonCommandButton>
+        <RibbonPanelBreak UID="RBN_01740483" Id="AcRibbonPanelBreak">
+          <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+        </RibbonPanelBreak>
+    </RibbonPanelSource>
+  </RibbonPanelSourceCollection>
+  <RibbonTabSourceCollection>
+    <RibbonTabSource Text="Drafting" UID="ID_TabHome" KeyTip="H" SmallImage="RCDATA_16_2DDRAFTINGWORKFLOW">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="ID_NAME_TabHome">Drafting</Name>
+      <Alias>ID_TabHome</Alias>
+      <RibbonPanelSourceReference UID="RBN_01740304" PanelId="RBN_01740265" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740325" PanelId="RBN_01740564" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" /> 
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740305" PanelId="ID_PanelDraw2D" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740306" PanelId="RBN_01740038" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740318" PanelId="ID_PanelHome_Blocks" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740312" PanelId="RBN_017401682D" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740308" PanelId="ID_PanelModify" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740309" PanelId="RBN_01740090" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740310" PanelId="RBN_017401002D" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740320" PanelId="ID_PanelParametricGeometricConstraints" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740316" PanelId="ID_PanelStandard_Clipboard" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740324" PanelId="ID_PanelCoord" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+    </RibbonTabSource>
+    <RibbonTabSource Text="Annotation" UID="ID_TabAnnotate" KeyTip="A" SmallImage="RCDATA_16_ANNOTATIONWORKFLOW">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="ID_NAME_TabAnnotate">Annotation</Name>
+      <Alias>ID_TabAnnotate</Alias>
+      <RibbonPanelSourceReference UID="RBN_01740509" PanelId="RBN_01740266" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740326" PanelId="RBN_01740564" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" /> 
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740331" PanelId="ID_PanelText" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740337" PanelId="ID_PanelInsert_Data" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740332" PanelId="ID_PanelDimensions" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740333" PanelId="ID_PanelMultileaders" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740334" PanelId="ID_PanelTables" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740336" PanelId="ID_PanelAnnotationScaling" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+    </RibbonTabSource>
+    <RibbonTabSource Text="Modeling" UID="ID_3dBasics_Home" KeyTip="H" SmallImage="RCDATA_16_3DMODELINGWORKFLOW">
+      <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      <Name xlate="true" UID="XLS_SM_00015955">Modeling</Name>
+      <RibbonPanelSourceReference UID="RBN_01740510" PanelId="RBN_01740273" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740327" PanelId="RBN_01740564" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" /> 
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="ID_PANELREFPANELCREATE__SM_0001" PanelId="ID_3dBasics_PanelCreate" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="ID_PANELREFPANELEDIT__SM_0001" PanelId="ID_3dBasics_PanelEdit" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740489" PanelId="RBN_01740360" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740491" PanelId="RBN_01740408" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740511" PanelId="ID_PanelDraw3D" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740673" PanelId="RBN_01740653" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740498" PanelId="RBN_017401683D" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740492" PanelId="RBN_01740449" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740493" PanelId="RBN_01740437" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740497" PanelId="RBN_017401003D" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740504" PanelId="ID_PanelLights" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740505" PanelId="ID_PanelMaterials" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740506" PanelId="ID_PanelRender" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740639" PanelId="RBN_01740635" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740495" PanelId="RBNU_2219" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740692" PanelId="RBN_01740684" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+      <RibbonPanelSourceReference UID="RBN_01740494" PanelId="RBN_01740464" ResizeStyle="Default">
+        <ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0" />
+      </RibbonPanelSourceReference>
+    </RibbonTabSource>
+  </RibbonTabSourceCollection>
+</RibbonRoot>
