@@ -170,16 +170,24 @@
 	(command "_hatchedit" ss1 "color" "ByLayer" "" "")
 	(command "_hatchedit" ss1 "properties" "GLASS" "96" "45")
 )
+
+(defun c:restr(/ ss1)
+	(command "stretch" (ssget) "" "Displacement" "")
+)
+
 (defun c:bba ()
   (setq setOfAll1 (ssget "x"));
   (command "change" setOfAll1 "" "p" "Color" "ByLayer" "LWeight" "ByLayer" "Ltype" "ByLayer" "PlotStyle" "ByLayer" "")
   )
+
 (defun c:pbAll()
  (command "purge" "B" "*" "N")
 )
+
 (defun c:ss()
 	(if (= (getvar "TILEMODE") 1) (setvar "TILEMODE" 0) (setvar "TILEMODE" 1))
 )
+
 (defun c:cc () (command "._copybase" "0,0" (ssget) ""))
 (princ "copy origin loaded\n")
 (defun c:dd () (command "._pasteclip" "0,0"))
