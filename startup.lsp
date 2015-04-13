@@ -67,8 +67,11 @@
 (defun c:tda () (command "_layer" "thaw" "*Titleblock-Dynamic*" ""))
 (defun c:tn0 () (command "_layer" "freeze" "*Titleblock-NorthArrow*" ""))
 (defun c:tn1 () (command "_layer" "thaw" "*Titleblock-NorthArrow*" ""))
-(defun c:nn0 () (command "_layer" "freeze" "*NonPlot*" ""))
-(defun c:nn1 () (command "_layer" "thaw" "*NonPlot*" ""))
+(defun c:nn0 () (command "_layer" "freeze" "*NonPlot*,*NPLT*" ""))
+(defun c:nn1 () (command "_layer" "thaw" "*NonPlot*,*NPLT*" ""))
+(defun c:vv0 () (command "_layer" "freeze" "*Viewport*" ""))
+(defun c:vv1 () (command "_layer" "thaw" "*Viewport*" ""))
+
 (defun c:nnv1 () (command "_vplayer" "thaw" "*NonPlot*" "Current" ""))
 (defun c:dd0 () (command "_layer" "freeze" "*ANNO-DIM*,*Anno-Dim*,*Dimension*" ""))
 (defun c:dd1 () (command "_layer" "thaw" "*ANNO-DIM*,*Anno-Dim*,*Dimension*" ""))
@@ -78,6 +81,7 @@
 (defun c:ee1 () (command "_layer" "thaw" "*exst*" ""))
 (defun c:cl0 () (command "_layer" "freeze" "*CLNG*" ""))
 (defun c:cl1 () (command "_layer" "thaw" "*CLNG*" ""))
+
 (defun c:wh0 () (command "_layer" "freeze" "*WALL-HEAD*,*FLOR-OVHD*" ""))
 (defun c:wh1 () (command "_layer" "thaw" "*WALL-HEAD*,*FLOR-OVHD*" ""))
 (defun c:ovh () (command "_layer" "ltype" "HIDDEN2" "*WALL-HEAD*,*FLOR-OVHD*" ""))
