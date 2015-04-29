@@ -1,32 +1,8 @@
-
-*.fmp
-
-*.mln
-
-*.pgp
-
-*.psf
-
-*.unt
-
-*.fdc
-
-*.xml
-
-*.cui
-
-*.bkup
-
-*.shx
-
-*.plist
-
-*.txt
-
-*.cdc
-
-*.pss
-
-*.fas
-
-*.ini
+# Ignore everything
+*
+# Don't ignore directories, so we can recurse into them
+!*/
+# Don't ignore .gitignore and *.foo files
+!.gitignore
+!*.lsp
+!*.lisp
